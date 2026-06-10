@@ -2,6 +2,7 @@ import java.io.Console;
 import java.util.Scanner;
 
 public class Input_Output {
+
     public  static void main(String[] args){
         // to print to console /output stream
         System.out.println("Here we go!");
@@ -16,6 +17,7 @@ public class Input_Output {
 
     // using scanner class
     public void take_input_via_scanner(){
+
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter user name: ");
         String userName = sc.nextLine();
