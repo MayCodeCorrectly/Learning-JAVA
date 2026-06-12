@@ -12,11 +12,16 @@ public class Main {
         int y  = x+7;
         System.out.println(y);
         myfunc(); // invoking helper function
+
+        String s = "new string";
+
+        System.out.println(s.getClass()+"\n"); // this gives class class_name
+        System.out.println(s.getClass().getName()); // but this gives class_name only
     }
     // only main will get executed others are helper and can't get invoked without including them in main
     public static void myfunc(){
         System.out.print("Hello from " +
-                "myfunc");
+                "myfunc\n");
     }
 }
 

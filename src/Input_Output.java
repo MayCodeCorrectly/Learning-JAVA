@@ -25,6 +25,8 @@ public class Input_Output {
         String password = sc.nextLine();
         System.out.println("Username: " + userName);
 
-        int age = sc.nextInt();
+        int age = sc.nextInt(); //to read integer value from console
+        float marks = sc.nextFloat();
+        double my_double = sc.nextDouble();
     }
 }
