@@ -1,5 +1,7 @@
 package Week2;
 
+import org.jetbrains.annotations.NotNull;
+
 public class Conditionals {
     public static void main(String args[]){
         int v=10;
@@ -60,7 +62,7 @@ public class Conditionals {
         System.out.println();
     }
 
-    public static void clean_print_arr(int[] arr){
+    public static void clean_print_arr(@org.jetbrains.annotations.NotNull int @NotNull [] arr){
         for(int x:arr){
             if (x!= arr[arr.length-1]){
                 System.out.print(x+",");

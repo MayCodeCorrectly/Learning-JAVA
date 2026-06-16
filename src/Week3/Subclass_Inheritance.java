@@ -12,7 +12,8 @@ public class Subclass_Inheritance {
                 " whose secretary name is "+m1.getSec());
         
         Employee e1 = new Manager("xyz",120.0); // this is valid
-        // Manager m2 = new Employee(); // this is not valid coz every emp is not manager 
+        // Manager m2 = new Employee(); // this is not valid coz every emp is not manager
+        System.out.println(e1.getClass());
         e1.setSalary(100000.0);
 
         // can we set secretary to e1?

@@ -1,4 +1,5 @@
 package Week2;
+import Week1.Main;  // by this we cna import packages from different package/folder
 
 public class Operators {
     public static void main(String args[]){

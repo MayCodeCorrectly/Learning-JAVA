@@ -20,8 +20,7 @@ public class Main {
     }
     // only main will get executed others are helper and can't get invoked without including them in main
     public static void myfunc(){
-        System.out.print("Hello from " +
-                "myfunc\n");
+        System.out.print("Hello from "+"myfunc\n");
     }
 }
 
