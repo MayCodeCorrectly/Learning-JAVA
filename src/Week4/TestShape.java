@@ -14,7 +14,6 @@ class Square extends Shape{
     }
 
     public void setSide(double s){
-
         side = s;
     }
     public double getSide(){

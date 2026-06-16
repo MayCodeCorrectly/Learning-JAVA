@@ -12,7 +12,7 @@ public class Application extends  Abstract implements A,B{
         System.out.println("Method B implemented");
     }
 
-    // @Override => is just an annotation which throws error if we aren't overriding nay method
+    // @Override => is just an annotation which throws error if we aren't overriding any method
     @Override
     public void my_method(){
         System.out.println("implemented my_method");
