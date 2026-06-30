@@ -100,6 +100,9 @@ public class Conditionals {
                 System.out.println("Positive");
                 // break is important otherwise fall through will happen
                 break;
+//            case "Match this":  // Matched item requires to be int
+//                System.out.println("Matched this");
+//                break;
             default:
                 System.out.println("Zero");
                 break;

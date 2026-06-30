@@ -5,6 +5,15 @@ public class Strings_Intro {
         String s1 = "Taj Mahal";
         String s2 = s1; // deep copy ? No
         // both s1 and s2 points at same memory location
+        String s3 = "Taj Mahal";
+
+        System.out.println(s1==s3);  // Since s1 and s3 hold same value s3 also pints same address s1 is pointing to
+        System.out.println("any string" + s1 == s3); // false
+        // because The + operator has higher precedence than ==, so Java evaluates it as:
+        //System.out.println(("any string" + s1) == s3);
+        // So do this way
+        System.out.println(("s1 and s3 points to same memory location :" + (s1 == s3)));
+
 
         System.out.println(s1 == s2);      // true
         System.out.println(s1.equals(s2)); // true
@@ -39,5 +48,22 @@ public class Strings_Intro {
         //check
         System.out.println(x == y);      // false
         System.out.println(x.equals(y)); // true
+
+
+        // empty strings
+        String emp_s1 = "";
+        String emp_s2 = "";
+        System.out.println(emp_s1==emp_s2);
+        System.out.println(emp_s1.equals(emp_s2));
+
+
+        // what if I create String first
+        String str1 = new String("Raj");
+        String str2 = "Raj";
+        System.out.println("===========Experiment==========");
+        System.out.println(str1==str2);
+        System.out.println(str1.equals(str2));
+
+
     }
 }

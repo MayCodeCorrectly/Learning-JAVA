@@ -28,4 +28,9 @@ public interface Camera {
     public default void fps(){
         System.out.println("This camera has 120fps video shooting");
     }
+
+    // we can even write main method inside interface
+    static void main(String[] args) {
+        System.out.println("Hello from Camera interface");
+    }
 }

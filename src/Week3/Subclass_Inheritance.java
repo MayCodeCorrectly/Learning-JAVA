@@ -57,7 +57,14 @@ public class Subclass_Inheritance {
         final double pi = 22/7; System.out.println(pi);
         final double acc_pi = (double) 22/7; System.out.println(acc_pi);
 
-    }   
+        Manager mana = new Manager("Alex",80000);
+        System.out.println("Bonus by manager: "+mana.Bonus(10)); // Manager's Bonus()
+        System.out.println("Bonus by casting manager into employee: "+((Employee)mana).Bonus(10)); // Manager's Bonus()
+
+        // Both call managers bonus
+        //Reason : Casting changes what members are visible at compile time,
+        // but overridden instance methods are chosen based on the actual object's type at runtime.
+    }
 }
 
 class Employee{

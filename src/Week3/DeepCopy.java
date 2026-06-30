@@ -1,4 +1,5 @@
 package Week3;
+// In general copy constructor does Shallow copy 
 
 class Roll_Marks{
     private int stu_id;
