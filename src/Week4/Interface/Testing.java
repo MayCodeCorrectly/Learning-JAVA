@@ -17,7 +17,7 @@ interface Employee{
     }
 }
 
-class Manager implements Employee{
+class Manager implements Employee {
     private String name;
 
     public String getName() {

@@ -19,5 +19,7 @@ public class Arithmetic {
         System.out.println(x% y);
 //        => what it does is a%b = a - b*(int)(a/b)
 //        means convert x/y to int mul it by y then sub it from x
+
+        System.out.println(Integer.parseInt(  "100"));
     }
 }
