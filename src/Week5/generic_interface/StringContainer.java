@@ -1,4 +1,4 @@
-package week5.generic_interface;
+package Week5.generic_interface;
 
 public class StringContainer implements Container<String> {
     private String[] str_list = new String[10];

@@ -1,4 +1,4 @@
-package week5.generic_interface;
+package Week5.generic_interface;
 
 public interface Container<T> {
     void add(T item);

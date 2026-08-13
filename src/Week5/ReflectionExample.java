@@ -1,4 +1,4 @@
-package week5;
+package Week5;
 
 import java.lang.reflect.*;
 

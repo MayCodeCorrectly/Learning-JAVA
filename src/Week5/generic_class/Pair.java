@@ -1,4 +1,4 @@
-package week5.generic_class;
+package Week5.generic_class;
 
 public class Pair<K,V> {
     private K key;

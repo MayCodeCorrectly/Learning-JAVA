@@ -1,4 +1,4 @@
-package week6;
+package Week6;
 import java.util.*;
 
 public class Test_LinkedList {

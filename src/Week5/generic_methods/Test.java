@@ -1,4 +1,4 @@
-package week5.generic_methods;
+package Week5.generic_methods;
 
 import java.util.ArrayList;
 

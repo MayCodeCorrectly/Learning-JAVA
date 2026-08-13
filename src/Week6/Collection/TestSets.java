@@ -1,8 +1,7 @@
-package week6.Collection;
+package Week6.Collection;
 
 import java.util.HashSet;
 import java.util.TreeSet;
-import java.util.LinkedHashSet;
 
 public class TestSets {
     static void main(String[] args) {

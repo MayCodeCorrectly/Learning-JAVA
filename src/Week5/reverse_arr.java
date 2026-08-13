@@ -1,4 +1,4 @@
-package week5;
+package Week5;
 
 public class reverse_arr {
     static void main(String[] args) {

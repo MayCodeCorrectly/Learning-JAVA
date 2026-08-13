@@ -1,4 +1,4 @@
-package week5.bounded_generics;
+package Week5.bounded_generics;
 
 public class Test {
     static void main(String[] args) {

@@ -1,4 +1,4 @@
-package week6.Collection;
+package Week6.Collection;
 
 import java.util. *;
 

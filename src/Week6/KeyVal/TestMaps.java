@@ -1,4 +1,4 @@
-package week6.KeyVal;
+package Week6.KeyVal;
 
 import java.util.*;
 

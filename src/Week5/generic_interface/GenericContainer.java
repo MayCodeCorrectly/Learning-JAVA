@@ -1,4 +1,4 @@
-package week5.generic_interface;
+package Week5.generic_interface;
 
 //public class GenericContainer<T> implements Container<T>{
 //    private T[] item_list;

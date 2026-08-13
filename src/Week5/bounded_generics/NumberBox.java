@@ -1,4 +1,4 @@
-package week5.bounded_generics;
+package Week5.bounded_generics;
 
 // Now this class can only work with number types or its children's
 public class NumberBox<T extends Number>{

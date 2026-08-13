@@ -1,4 +1,4 @@
-package week5.bounded_generics;
+package Week5.bounded_generics;
 
 public class Pairs <X extends Number,Y extends Number> {
     private X pointx;

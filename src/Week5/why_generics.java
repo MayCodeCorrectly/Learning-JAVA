@@ -1,4 +1,4 @@
-package week5;
+package Week5;
 
 public class why_generics {
     public static void main(String[] args) {
