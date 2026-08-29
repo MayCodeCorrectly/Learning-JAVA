@@ -2,7 +2,7 @@ package Week8;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-
+import java.util.stream.Stream;
 public class HOF {
     public static void main(String[] args) {
         
@@ -26,5 +26,12 @@ public class HOF {
 
         ArrayList<Integer> intList = new ArrayList<>();
         // intList.forEach((x) -> x+10);
+
+        Stream<String> s = Arrays.asList(s_arr).stream();
+        s.filter((i) -> i.length()>8).forEach(System.out::println);
+        
+        Stream.generate(Math::random).limit(10).forEach((i) -> System.out.println(i));
+
+        Stream.iterate(0, n -> n<10 , n -> n+1).forEach(System.out::println);
     }
 }

@@ -68,7 +68,7 @@ class Person implements Cloneable{
     @Override
     public Person clone() throws CloneNotSupportedException {
         Person copy = (Person) super.clone();
-        copy.birthDate = (Date) birthDate.clone();
+        copy.birthDate = (Date) this.birthDate.clone();
         return copy;
     }
 
