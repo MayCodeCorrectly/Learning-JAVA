@@ -39,6 +39,7 @@ public class ArrayObject{
     for(int i = 0; i < len; i++){
           x[i] = sc.nextInt(); //Taking input for Integer array
     }
+    sc.close();
     
     //Write the code here to create an object obj for Integer array
     ArrayExample<Integer> obj = new ArrayExample<Integer>(x);
